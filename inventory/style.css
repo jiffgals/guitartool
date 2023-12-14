@@ -1,0 +1,125 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  table, td, th {
+    border: 1px solid #f55a00;
+    padding: 5px;
+    text-align: left;
+  }
+  
+  table span {
+      background: green;
+      color: #fff;
+      border-radius: 4px;
+      padding: auto;
+  }
+  
+  table input {
+      background: #fff;
+      color: #000;
+      border: 1px solid #f06a1d;
+      border-radius: 4px;
+      width: 97%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2px 6px 2px 16px;
+  }
+  
+  table button {
+      background: #f55b5b;
+      color: #fff;
+      border: 1px solid #f76c1c;
+      border-radius: 4px;
+      padding: 2px 4px 2px 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  form {
+    margin-bottom: 1px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search {
+    background: #fff;
+    color: #fff;
+    text-transform: none;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 10px;
+    margin-right: 0px;
+    margin-bottom: 1px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  form input {
+    background: #fff;
+    color: #000;
+    text-transform: none;
+    border: 1px solid #fa3e3e;
+    border-radius: 4px;
+    padding: 4px;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    width: 100%;
+  }
+  
+  form button {
+      background: #ff4800;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+      border: 1px solid #e9551a;
+      border-radius: 4px;
+      padding: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+  }
+  
+  text input {
+    background: yellow;
+    color: red;
+    text-transform: none;
+    border: 1px solid #e0a914;
+    border-radius: 4px;
+    padding: 4px;
+    margin-right: 10px;
+    margin-bottom: 1px;
+  }
+
+  .subject {
+    background: #fff;
+    color: #fc3434;
+    font-size: 1.6rem;
+    text-shadow: rgba(0, 0, 0, 5);
+    border: 1px solid #fff;
+    border-radius: 10px 10px 0 0;
+    width: relative;
+    padding: 4px 20px 4px 20px;
+  }
+    
+  span, .alert {
+    padding: 10px 0 0 0;
+    color: rgb(245, 48, 48);
+    font-weight: bolder;
+   } 
+    
+  span, .caution {
+    color: rgb(253, 125, 19);
+    font-weight: bold;
+   } 
