@@ -5,9 +5,40 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+body {
+  background: #141414;
+}
+
 a {
     text-decoration: none;
     color:  #fff;
+}
+
+span {
+  font-size: 1.5rem;
+  color: #ff8177;
+}
+
+#start {
+  color: transparent;
+}
+
+#tool1 {
+  color: transparent;
+}
+
+#tool2 {
+  color: transparent;
+}
+
+.text-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar {
@@ -201,6 +232,15 @@ a {
     #mobile-menu.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+
+    .text-content {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      width: 100%;
+      padding: 10px;
+      align-items: center;
+      justify-content: center;
+    }
 }
 
 /* Guitar Section */
@@ -336,24 +376,59 @@ a {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 518px) {
+    .main__container {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90vh;
+    }
+
+    .main__content {
+        text-align: center;
+        margin-bottom: 4rem;
+        align-items: center;
+        justify-content: center;
+    }
+  
     .main__content h1 {
         font-size: 2rem;
         margin-top: 3rem;
+        align-items: center;
+        justify-content: center;
     }
 
     .main__content h2 {
         font-size: 2rem;
+        align-items: center;
+        justify-content: center;
     }
 
     .main__content p {
         margin-top: 2rem;
         font-size: 1.5rem;
+        align-items: center;
+        justify-content: center;
     }
 
     .main__btn {
         padding: 12px 36px;
         margin: 2.5rem 0;
+    }
+    .services {
+        background: #141414;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    services__container, img {
+      border-radius: 10px;
     }
 }
 
@@ -363,10 +438,18 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 100%;
 }
 
+services__container, img {
+  border-radius: 10px;
+}
+
 .services h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #ff8177;
     background-image: linear-gradient(to right, 
     #ff8177 0%, 
@@ -377,7 +460,7 @@ a {
     #b12a5b 100%
     );
     background-size: 100%;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
     font-size: 2.5rem;
     -webkit-background-clip: text;
     -moz-background-clip: tent;
@@ -387,8 +470,10 @@ a {
 
 .services__container {
     display: flex;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    color: #fff;
 }
 
 .services__card {
@@ -396,14 +481,16 @@ a {
     height: 525px;
     width: 400px;
     border-radius: 4px;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17, 17, 17, 0.6) 100%), url('/images/pic3.jpg');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17, 17, 17, 0.6) 100%), url('https://www.doremistudios.com.au/wp-content/uploads/2022/09/Circle-of-fifths-1024x1003.png');
     background-size: cover;
     position: relative;
-    color: #fff;
+    color: yellow;
+    align-items: center;
+    justify-content: center;
 }
 
 .services__card:nth-child(2) {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17, 17, 17, 0.6) 100%), url('/images/pic4.jpg');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17, 17, 17, 0.6) 100%), url('https://m.media-amazon.com/images/I/710w+zjgwEL._SY425_.jpg');
 }
 
 .services h2 {
