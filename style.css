@@ -33,6 +33,10 @@ span {
 }
 
 #soc {
+  color: transparent;
+}
+
+#soc::after {
   border: 1px solid orange;
   color: red;
 }
