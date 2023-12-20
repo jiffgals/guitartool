@@ -32,6 +32,10 @@ span {
   color: transparent;
 }
 
+#soc {
+  color: transparent;
+}
+
 .text-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
